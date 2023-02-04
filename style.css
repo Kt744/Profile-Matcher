@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(242, 239, 245);
+}
+.container {
+  width: 41vw;
+  height: 75vh;
+  background-color: rgb(85, 80, 80);
+}
+.containers {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+}
+.section1 {
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.section2 {
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.section1-heading {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.section1-inputfield {
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+#inp1 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+#inp2 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+#inp3 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+.section2-heading {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.section2-inputfield {
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+#input1 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+#input2 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+#input3 {
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+}
+.find-button {
+  width: 40vw;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  width: 10vw;
+  height: 6vh;
+}
+.output {
+  width: 40vw;
+  height: 30vw;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+/* 1 */
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .section1-heading {
+    font-size: 0.8rem;
+  }
+  #inp1 {
+    font-size: 0.6rem;
+  }
+  #inp2 {
+    font-size: 0.6rem;
+  }
+  #inp3 {
+    font-size: 0.6rem;
+  }
+  .section2-heading {
+    font-size: 0.8rem;
+  }
+  #input1 {
+    font-size: 0.6rem;
+  }
+  #input2 {
+    font-size: 0.6rem;
+  }
+  #input3 {
+    font-size: 0.6rem;
+  }
+  .output {
+    font-size: 0.6rem;
+  }
+}
+/* 2 */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .containers {
+    width: 40vw;
+    height: 45vh;
+  }
+  .section1-heading {
+    font-size: 0.8rem;
+  }
+  #inp1 {
+    font-size: 0.8rem;
+  }
+  #inp2 {
+    font-size: 0.8rem;
+  }
+  #inp3 {
+    font-size: 0.8rem;
+  }
+  .section2-heading {
+    font-size: 0.8rem;
+  }
+  #input1 {
+    font-size: 0.8rem;
+  }
+  #input2 {
+    font-size: 0.8rem;
+  }
+  #input3 {
+    font-size: 0.8rem;
+  }
+  .find-button {
+    width: 40vw;
+    height: 20vw;
+  }
+  .output {
+    width: 40vw;
+    height: 40vw;
+    font-size: 0.8rem;
+  }
+}
+/* 3 */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .section1-heading {
+    font-size: 1.3rem;
+  }
+  #inp1 {
+    font-size: 1rem;
+  }
+  #inp2 {
+    font-size: 1rem;
+  }
+  #inp3 {
+    font-size: 1rem;
+  }
+  .section2-heading {
+    font-size: 1.2rem;
+  }
+  #input1 {
+    font-size: 1rem;
+  }
+  #input2 {
+    font-size: 1rem;
+  }
+  #input3 {
+    font-size: 1rem;
+  }
+  .output {
+    font-size: 1rem;
+  }
+}
+/* 4 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section1-heading {
+    font-size: 1.4rem;
+  }
+  #inp1 {
+    font-size: 1.1rem;
+  }
+  #inp2 {
+    font-size: 1.1rem;
+  }
+  #inp3 {
+    font-size: 1.1rem;
+  }
+  .section2-heading {
+    font-size: 1.4rem;
+  }
+  #input1 {
+    font-size: 1.1rem;
+  }
+  #input2 {
+    font-size: 1.1rem;
+  }
+  #input3 {
+    font-size: 1.1rem;
+  }
+  .output {
+    font-size: 1.1rem;
+  }
+}
+/* 5 */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .section1-heading {
+    font-size: 1.5rem;
+  }
+  #inp1 {
+    font-size: 1.2rem;
+  }
+  #inp2 {
+    font-size: 1.2rem;
+  }
+  #inp3 {
+    font-size: 1.2rem;
+  }
+  .section2-heading {
+    font-size: 1.5rem;
+  }
+  #input1 {
+    font-size: 1.2rem;
+  }
+  #input2 {
+    font-size: 1.2rem;
+  }
+  #input3 {
+    font-size: 1.2rem;
+  }
+  .output {
+    font-size: 1.2rem;
+  }
+}
